@@ -1,11 +1,17 @@
 {
     "name": "berrygoudswaard/coverage-reporter",
+    "description": "Print the total code coverage and exit with the right exit code",
+    "keywords": ["ci", "phpunit", "clover"],
+    "homepages": "http://www.berrygoudswaard.nl",
     "license": "MIT",
     "authors": [
         {
             "name": "Berry Goudswaard",
             "email": "berry@xseeding.nl"
         }
+    ],
+    "bin": [
+        "bin/coverage-reporter"
     ],
     "autoload": {
         "psr-4": {

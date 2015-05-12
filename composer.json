@@ -1,0 +1,23 @@
+{
+    "name": "berrygoudswaard/coverage-reporter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berry Goudswaard",
+            "email": "berry@xseeding.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BerryGoudswaard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BerryGoudswaard\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/console": "^2.6"
+    }
+}

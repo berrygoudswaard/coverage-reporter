@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/../config/bootstrap.php';
+
+use BerryGoudswaard\CoverageReporter\Console\Application;
+
+$application = new Application();
+$application->run();

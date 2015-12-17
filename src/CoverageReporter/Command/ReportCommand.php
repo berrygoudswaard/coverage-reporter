@@ -1,6 +1,6 @@
 <?php
 
-namespace BerryGoudswaard\CoverageReporter\Command;
+namespace NoRegression\CoverageReporter\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

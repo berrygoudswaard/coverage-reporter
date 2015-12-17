@@ -5,7 +5,7 @@ The coverage is determined by a clover coverage report that can be generate by P
 
 ## Installation
 ```sh
-composer require berrygoudswaard/coverage-reportor
+composer require noregression/coverage-reportor
 ```
 
 ## Usage

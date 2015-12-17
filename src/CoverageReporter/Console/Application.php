@@ -1,8 +1,8 @@
 <?php
 
-namespace BerryGoudswaard\CoverageReporter\Console;
+namespace NoRegression\CoverageReporter\Console;
 
-use BerryGoudswaard\CoverageReporter\Command;
+use NoRegression\CoverageReporter\Command;
 use Symfony\Component\Console\Application as BaseApplication;
 
 class Application extends BaseApplication

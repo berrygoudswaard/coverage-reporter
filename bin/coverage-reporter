@@ -3,7 +3,7 @@
 
 require __DIR__.'/../config/bootstrap.php';
 
-use BerryGoudswaard\CoverageReporter\Console\Application;
+use NoRegression\CoverageReporter\Console\Application;
 
 $application = new Application();
 $application->run();

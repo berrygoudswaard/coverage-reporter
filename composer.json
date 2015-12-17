@@ -1,13 +1,13 @@
 {
-    "name": "berrygoudswaard/coverage-reporter",
+    "name": "noregression/coverage-reporter",
     "description": "Print the total code coverage and exit with the right exit code",
     "keywords": ["ci", "phpunit", "clover"],
-    "homepages": "http://www.berrygoudswaard.nl",
+    "homepages": "http://www.noregression.nl",
     "license": "MIT",
     "authors": [
         {
             "name": "Berry Goudswaard",
-            "email": "berry@xseeding.nl"
+            "email": "info@noregression.nl"
         }
     ],
     "bin": [
@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "BerryGoudswaard\\": "src/"
+            "NoRegression\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BerryGoudswaard\\Test\\": "tests/"
+            "NoRegression\\Test\\": "tests/"
         }
     },
     "require": {
